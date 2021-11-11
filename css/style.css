@@ -86,3 +86,11 @@ header.sticky-top {
 .discover .img_container.active {
     border-bottom: 2px solid blue;
 }
+
+.banner-ad.container-fluid {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}

@@ -94,3 +94,8 @@ header.sticky-top {
     background-repeat: no-repeat;
     color: white;
 }
+
+.new-game {
+    background-color: #1F1F1F;
+    color: white;
+}

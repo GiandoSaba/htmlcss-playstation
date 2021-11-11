@@ -11,3 +11,21 @@ html {
     color: rgb(0, 0, 0);
 }
 
+
+
+.my_nav-bar-list-inline .list-inline li::before {
+    content: '\2022 ';
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse .btn {
+        width: 50%;
+    }
+    
+    .navbar-collapse .search-button {
+        width: 100%;
+        border: 1px solid black;
+        margin: 1em 0;
+        padding: 0.5em;
+    }   
+}

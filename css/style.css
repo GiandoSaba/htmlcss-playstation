@@ -103,3 +103,8 @@ header.sticky-top {
 .banner-ad-plus {
     background-color: #BEBCBB;
 }
+
+.banner-ad-now {
+    background-color: #161C3B;
+    color: white;
+}

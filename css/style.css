@@ -1,0 +1,13 @@
+html {
+    font-size: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header-top svg {
+    width: 4em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+

@@ -37,7 +37,7 @@ header.sticky-top {
 }
 
 .dropdown-menu[data-bs-popper] {
-    top: 90%;
+    top: calc(100% - 2px);
     left: 0;
 }
 
@@ -81,6 +81,11 @@ header.sticky-top {
         margin: 1em 0;
         padding: 0.5em;
     }
+
+    .navbar-collapse .search-button input {
+        width: 97%;
+        border: 0;
+    }
 }
 
 .discover .img_container.active {
@@ -107,4 +112,19 @@ header.sticky-top {
 .banner-ad-now {
     background-color: #161C3B;
     color: white;
+}
+
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer .logo_ps,
+footer .logo_sie {
+    width: 100px;
+    margin-bottom: 2em;
+}
+
+footer .list-unstyled {
+    line-height: 2.5em;
 }

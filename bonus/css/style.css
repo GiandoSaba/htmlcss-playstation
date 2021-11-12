@@ -10,6 +10,17 @@ header {
     width: 4em;
 }
 
+section.note .my_container {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+
+footer .my_container {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
 }
@@ -90,6 +101,42 @@ header {
     }
 }
 
+.jumbo {
+    background-image: url(../img/cose-bianche.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbo-container {
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    background-color: rgba(214, 214, 214, 0.733);
+    text-align: center;
+    padding: 1em;
+}
+
+section.controller img {
+    width: 80%;
+}
+
+section.controller p,
+section.cuffie p {
+    padding: 0 15em;
+}
+
+section.controller a {
+    text-decoration: none;
+}
+
+section.controller a:hover {
+    text-decoration: underline;
+}
+
+section.cuffie img {
+    width: 50%;
+}
 
 footer {
     background-color: #00439C;

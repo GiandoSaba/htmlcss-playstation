@@ -84,23 +84,6 @@ header.sticky-top {
     transform: rotate(180deg);
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-radius: 50rem;
-    display: inline-block;
-}
-
-.button-container:hover {
-    border: 1px solid black;
-}
-
-.btn:hover {
-    transform: scale(0.96);
-    filter: opacity(0.8);
-}
-
 .jumbo-top.container-fluid {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -123,6 +106,12 @@ header.sticky-top {
 .jumbo-bot .img_container:hover {
     transform: translate(0, -20%);
     transition: 0.5s;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    transform: scale(0.9);
+    filter: opacity(0.8);
 }
 
 .discover .img_container img {

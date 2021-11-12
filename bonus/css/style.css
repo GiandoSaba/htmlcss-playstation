@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    top: -1px;
+}
+
+.header-top svg {
+    width: 4em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.my_nav-bar-list-inline .list-inline li::before {
+    content: '\2022 ';
+    margin-right: 0.5em;
+}
+
+.my_nav-bar-list-inline .list-inline li a {
+    text-decoration: none;
+    color: black;
+}
+
+.my_nav-bar-list-inline .list-inline li:hover a {
+    color: blue;
+}
+
+.dropdown-toggle::after {
+    vertical-align: middle;
+    border: 0;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+}
+
+.dropdown-toggle:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: blue;
+}
+
+.dropdown-toggle.show::after {
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+    transform: rotate(180deg);
+}
+
+.dropdown-toggle.show:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+    transform: rotate(180deg);
+}
+
+
+.my_nav_bot .logo {
+    width: 10em;
+}
+
+
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer .logo_ps,
+footer .logo_sie {
+    width: 100px;
+    margin-bottom: 2em;
+}
+
+footer .list-unstyled {
+    line-height: 2.5em;
+}
+
+footer .list-unstyled a {
+    text-decoration: none;
+    color: white;
+}

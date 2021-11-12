@@ -109,8 +109,8 @@ header.sticky-top {
 }
 
 .btn:hover {
-    border: 1px solid black;
-    transform: scale(0.9);
+    outline: none;
+    box-shadow: 0 0 0 2px black;
     filter: opacity(0.8);
 }
 

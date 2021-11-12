@@ -61,6 +61,35 @@ header {
     width: 10em;
 }
 
+.my_nav_bot .nav-item.active a {
+    color: blue;
+    position: relative;
+}
+
+.my_nav_bot .nav-item.active a:after {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: 3px;
+    background-color: blue;
+}
+
+@media screen and (max-width:992px) {
+    .my_nav_bot .nav-item.active {
+        background-color: blue;
+    }
+
+    .my_nav_bot .nav-item.active a {
+        color: white;
+    }
+    
+    .my_nav_bot .nav-item.active a:after {
+        display: none;
+    }
+}
+
 
 footer {
     background-color: #00439C;

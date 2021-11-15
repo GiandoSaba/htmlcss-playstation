@@ -106,24 +106,12 @@ footer .my_container {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.jumbo-container {
-    width: 40%;
-    margin-top: 100px;
-    margin-bottom: 300px;
-    background-color: rgba(214, 214, 214, 0.733);
-    text-align: center;
-    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 20em;
 }
 
 section.controller img {
     width: 80%;
-}
-
-section.controller p,
-section.cuffie p {
-    padding: 0 15em;
 }
 
 section.controller a {
